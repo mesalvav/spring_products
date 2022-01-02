@@ -20,6 +20,8 @@
 
 <main role="main" class="container">
 	 <h2>Product Details</h2>
+	 <h2><a th:href="${'/'}">Back to Welcome Page</a></h2>
+        	 <h2><a th:href="${'/products'}">List of Products</a></h2>
     <div>
         <form class="form-horizontal" th:object="${product}" th:action="@{/product}" method="post">
             <input type="hidden" th:field="*{id}"/>
