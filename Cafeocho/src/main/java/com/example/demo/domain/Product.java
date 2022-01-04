@@ -2,7 +2,7 @@ package com.example.demo.domain;
 
 import java.math.BigDecimal;
 
-public class Product {
+public class Product implements DomainObject {
     private Integer id;
     private String description;
     private BigDecimal price;
